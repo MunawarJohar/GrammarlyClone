@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- name: Munawar hussain
+date: 27-12-2022
+javascript project  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammarly Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Character Counter and Text Error Detector</h1>
+        <p>
+            Check your English text for Grammar spelling and punctuation by Munawar Johar.
+        </p>
+        <textarea id="textarea" class="textarea" maxlength="150" placeholder="Please Enter Your Text Here."></textarea>
+        <br>
+        <button onclick="copytext()">Copy Text</button>
+
+        <div class="counter_container">
+            <p>
+                Total Characters:<span id="total_counter">0</span>
+            </p>
+            <p>
+                Remaining Characters:<span id="remain_counter">500</span>
+            </p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
